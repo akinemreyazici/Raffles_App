@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cekilisler"
+            android:icon="@drawable/ic_all"
+            android:title="@string/menu_cekilisler" />
+        <item
+            android:id="@+id/nav_yenibaslayanlar"
+            android:icon="@drawable/ic_new"
+            android:title="@string/menu_yenibaslayanlar" />
+        <item
+            android:id="@+id/nav_bedavakatilim"
+            android:icon="@drawable/ic_free"
+            android:title="@string/menu_bedavakatilim" />
+        <item
+            android:id="@+id/nav_arabakazan"
+            android:icon="@drawable/ic_car"
+            android:title="@string/menu_arabakazan" />
+        <item
+            android:id="@+id/nav_telefontabletkazan"
+            android:icon="@drawable/ic_phone"
+            android:title="@string/menu_telefontabletkazan" />
+        <item
+            android:id="@+id/nav_tatilkazan"
+            android:icon="@drawable/ic_holiday"
+            android:title="@string/menu_tatilkazan" />
+        <item
+            android:id="@+id/nav_takipettiklerim"
+            android:icon="@drawable/ic_favourites"
+            android:title="@string/menu_takipettiklerim" />
+    </group>
+</menu>

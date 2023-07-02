@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_cekilisler">
+
+    <fragment
+        android:id="@+id/nav_cekilisler"
+        android:name="com.works.kimkazandi.ui.Cekilisler.CekilislerFragment"
+        android:label="@string/menu_cekilisler"
+        tools:layout="@layout/fragment_raffles" >
+        <action
+            android:id="@+id/action_nav_cekilisler_to_raffleDetailFragment"
+            app:destination="@id/raffleDetailFragment" >
+
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_yenibaslayanlar"
+        android:name="com.works.kimkazandi.ui.YeniBaslayanlar.YeniBaslayanlarFragment"
+        android:label="@string/menu_yenibaslayanlar"
+        tools:layout="@layout/fragment_raffles" >
+        <action
+            android:id="@+id/action_nav_yenibaslayanlar_to_raffleDetailFragment"
+            app:destination="@id/raffleDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_arabakazan"
+        android:name="com.works.kimkazandi.ui.ArabaKazan.ArabaKazanFragment"
+        android:label="@string/menu_arabakazan"
+        tools:layout="@layout/fragment_raffles" >
+        <action
+            android:id="@+id/action_nav_arabakazan_to_raffleDetailFragment"
+            app:destination="@id/raffleDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_takipettiklerim"
+        android:name="com.works.kimkazandi.ui.TakipEttiklerim.TakipEttiklerimFragment"
+        android:label="@string/menu_takipettiklerim"
+        tools:layout="@layout/fragment_raffles" >
+        <action
+            android:id="@+id/action_nav_takipettiklerim_to_raffleDetailFragment"
+            app:destination="@id/raffleDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_tatilkazan"
+        android:name="com.works.kimkazandi.ui.TatilKazan.TatilKazanFragment"
+        android:label="@string/menu_tatilkazan"
+        tools:layout="@layout/fragment_raffles" >
+        <action
+            android:id="@+id/action_nav_tatilkazan_to_raffleDetailFragment"
+            app:destination="@id/raffleDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_telefontabletkazan"
+        android:name="com.works.kimkazandi.ui.TelefonTabletKazan.TelefonTabletKazanFragment"
+        android:label="@string/menu_telefontabletkazan"
+        tools:layout="@layout/fragment_raffles" >
+        <action
+            android:id="@+id/action_nav_telefontabletkazan_to_raffleDetailFragment"
+            app:destination="@id/raffleDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_bedavakatilim"
+        android:name="com.works.kimkazandi.ui.BedavaKatilim.BedavaKatilimFragment"
+        android:label="@string/menu_bedavakatilim" >
+        <action
+            android:id="@+id/action_nav_bedavakatilim_to_raffleDetailFragment"
+            app:destination="@id/raffleDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/raffleDetailFragment"
+        android:name="com.works.kimkazandi.ui.RaffleDetail.RaffleDetailFragment"
+        android:label="@string/fragmentDetail"
+        tools:layout="@layout/fragment_raffle_detail" />
+</navigation>

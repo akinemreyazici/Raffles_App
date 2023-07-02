@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">kimkazandi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Akın Emre YAZICI</string>
+    <string name="nav_header_subtitle">github.com/akinemreyazici</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_cekilisler">Tüm Çekilişler</string>
+    <string name="menu_yenibaslayanlar">Yeni Başlayanlar</string>
+    <string name="menu_bedavakatilim">Bedava Katılım</string>
+    <string name="menu_arabakazan">Araba Kazan</string>
+    <string name="menu_telefontabletkazan">Telefon Tablet Kazan</string>
+    <string name="menu_tatilkazan">Tatil Kazan</string>
+    <string name="menu_takipettiklerim">Takip ettiklerim</string>
+    <string name="fragmentDetail">Çekiliş Hakkında</string>
+
+    <string name="FAV">Favourite</string>
+    <string name="UNFAV">Unfavourite</string>
+</resources>
