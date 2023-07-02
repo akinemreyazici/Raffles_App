@@ -23,6 +23,14 @@ The following technologies were utilized in the development of the Raffles App:
 - Raffle Details : Tapping on a specific raffle in the list opens a detailed view, similar to the detail page on the website. Users can view all the relevant information and details about the selected raffle.
 - Favorite Raffles : Users have the option to add raffles to their favorites list. These favorite raffles are displayed separately in the Drawer Navigation menu for quick access and easy reference.
 
+
+## Website Images
+<p align="center">
+  <img width="750" height="350" alt="sitess1" src="https://github.com/akinemreyazici/Raffles_App/assets/116732291/78620edb-6f6a-4e2b-9ba4-54b51a068941">
+  <img width="750" height="350" alt="sitess2" src="https://github.com/akinemreyazici/Raffles_App/assets/116732291/559aab42-42fc-4b38-9cc6-09fc630d35e7">
+  <img width="750" height="350" alt="sitess3" src="https://github.com/akinemreyazici/Raffles_App/assets/116732291/b38ea909-1ba7-4913-8fc2-4677fa7e3698">
+</p>
+
 ## Project Images
 <p align="center">
 <img width="250" alt="projess1" src="https://github.com/akinemreyazici/Raffles_App/assets/116732291/23a566f4-122f-4566-b642-070d3ff516e0">
